@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rtuning</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html"><span>R</span>tuning</a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="chiptuning.html">ChipTuning</a></li>
+					<li><a href="ECUremap.html">ECU remap</a></li>
+				</ul>
+			</nav>
+
+		<!-- Content -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="post" class="wrapper bg-img" data-bg="banner5.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2 data-value="ECUremap">ECUremap</h2>							
+						</header>
+						<div class="content">
+							<p>ECU Remap je jedini precizni način chip tuninga, 
+								gde se za razliku od dodavanja uređaja i prepravljanja elektronike,
+								 programiranjem podešavaju parametri unosom vrednosti određenih preciznim matematičkim proračunima.
+								Motorni računar - ECU (Engine Control Unit) u sebi sadrži instrukcije za upravljanje motorom i komponentama na motoru. 
+								Ove instrukcije nazivamo mapama, a moderni sistemi upravljanja motorom mogu sadržati i oko 200.000 mapa. 
+								Izmene parametara na mapama nazivamo Remap</p>
+							<h3>Motorni računar - ECU</h3>
+							<p>Od modela motornog računara zavise i usluge koje se mogu izvršiti na datom računaru.
+								 U RTUNING Chiptuning Experts neprestano radimo na unapređenju postojećih i pronalaženju novih rešenja za kvalitetnije
+								  reprogramiranje motornih računara ECU remap metodom.
+								Neki od najčešćih tipova ECU - Motornih računara su
+								 BOSCH, Siemens, Continental, Delphi, Magneti Marelli, Denso, Delco, Visteon, Temic…</p>
+							<h3>ECU remap se najčešće odvija u tri faze:</h3>
+							<ol>
+								<li>Firmware iz motornog računara se očitava specijalnim chip tuning uređajem.</li>
+								<li>Vrši se analiza očitanog programa i remap odabranih mapa.</li>
+								<li>Remapirani program se upisuje nazad u ECU.</li>
+							</ol>
+							<h3>ECU se može očitavati i upisivati na više načina:</h3>
+							<ul>
+								<h1>Spoljašnjim pristupom memoriji:</h1>
+								<li>OBD metodom, prilikom koje uređaj za manipulaciju memorijom ostvaruje vezu sa ECU putem K-Line ili CAN-BUS kanala komunikacije na vozilu. Pristup memoriji preko OBD-a se obavlja obilaženjem „prepreka“ koje predstavljaju uređaji na vozilu (Centralne jedinice, kontrolni moduli, immobilizer, elektroničke centrale…) između OBD konektora i motornog računara. OBD metoda je najjednostavniji vid očitavanja-upisivanja memorije iz računara prilikom chip tuninga ECU remap metodom.</li>
+								<li>Pinout postupak je sličan OBD pristupu memoriji. ECU se skida sa vozila, a uređaj za chip tuning se povezuje direktno na konektore motornog računara. Ova metoda je naprednija od očitavanja preko OBD-a i omogućava Full mode očitavanje za pojedine modele motornih računara. Pinout je ujedno i manje rizičan postupak od OBD očitavanja jer se odvija bez uređaja između OBD konektora i ECU koji mogu ometati komunikaciju.</li>
+							</ul>
+							<ul>
+								<h1>Direktnim pristupom memoriji:</h1>
+								<li>Boot mode postupak se najčešće primenjuje prilikom manipulacije novijim tipovima memorija (Infineon Tricore procesori, Motorola procesori…) koje se upotrebljavaju u savremenim vozilima. Kanali komunikacije se povezuju direktno na ploču računara. Boot mode omogućava da oprema za chip tuning ima pristup kopletnoj memoriji kako bi se izvršilo Full mode očitavanje i upisivanje memorije iz procesora i memorijskih uređaja. Od ključnog značaja je da se Boot mode obavlja originalnim chip tuning alatima sa online dekodiranjem memorije i automatskim ažuriranjem checksum-a memorije. U suprotnom može doći do zaključavanja memorije ili gubitka podataka iz procesora.</li>
+								<li>BDM veza se ostvaruje chip tuning uređajima pomoću posebnih adaptera za pristup memoriji ECU. Specijalni chip tuning adapteri se primenjuju za svaki tip motornog računara posebno. Adapterima se ostvaruje direktan pristup memoriji preko izvedenih konektora na ploči motornog računara. BDM programiranje takođe podrazumeva Full mode pristup memoriji. Full mode očitavanje memorije je veoma važno i korisno jer su svi podaci iz ECU dostupni za programiranje. Programerima kompletno očitana memorija daje više mogućnosti prilikom remapiranja kako bi bili u mogućnosti da izrade kvalitetan tuning.</li>
+								<li>Postoje slučajevi kada se koristi i metoda fizičkog odvajanja memorije sa ploče računara, kako bi se očitala ili upisala specijalnim programatorima. Ovaj postupak se najčešće primenjuje prilikom remapa starijih tipova memorija -čipova koje nemaju mogućnost brisanja, već je potrebno očitati ih, a nakon programiranja mape upisati u istu takvu novu, „Blanko“ memoriju.</li>
+							</ul>
+							<h3>Mape</h3>
+							<p>Mape predstavljaju instrukcije koje motorni računar zadaje uređajima na motoru. Kavalitet remapa i rezultati zavise od programera, od izbora mapa i načina promene međusobno povezanih parametara. Mape na kojima se parametri najčešće menjaju i međusobno usklađuju prilikom chip tuninga su: vreme ubrizgavanja goriva, pritisak goriva, ugao paljenja, osetljivost papučice gasa, pritisak u turbini, lambda vrednosti, odnos goriva i vazduha, graničnici…itd. Precizno izvedeni proračuni i pravilno usklađivanje unakrsno povezanih mapa motornog računara su od vitalnog značaja za kvalitet remapa. Možemo napraviti podelu mapa na direktne mape kojima se određuju konstantni parametri i uslovne mape, unakrsno povezane sa ostalim mapama u sistemu, a koje zavise od spoljnih ulaznih i fiksnih parametara dobijenih očitavanjima perifernih uređaja na vozilu.</p>
+							<h3>Šta čini kvalitetan remap?</h3>
+							<p>Način, tehnička rešenja, izbor mapa i postupak remapa najviše zavise od individualnog izbora osobe koja vrši reprogramiranje. Za kvalitetan remap je potrebno obuhvatiti što više mapa i modifikovati ih minimalnim promenama sa ciljem postizanja optimalnih rezultata, a ujedno voditi računa da sve mape ostanu međusobno usklađene.</p>
+							<h3>Čemu služi remap?</h3>
+							<p>ECU remapom se mogu unaprediti performanse vozila, selektivno povećati snaga, smanjiti potrošnja, produžiti radni vek motora ili otkloniti problem na motoru.</p>
+							<h1>Neke od najčešćih modifikacija remapom motornog računara su:</h1>
+							<p>Chip tuning - Poboljšanje performansi povećanjem snage, smanjenje potrošnje ili usklađivanje rada motora nakon mehanički izmenjene konfiguracije.</p>
+							<p>Ovde ide jos texta proiveri na protuning da li aca hoce</p>
+							<p>Reprogramiranje konfiguracije - Isključivanje i adaptacija perifernih komponenti motora. Isključivanje DPF (Diesel Particulate Filter – Filter sitnih čestica dizela), isključivanje EGR ventila (Exhaust Gas Recirculation – Ventil za obradu/povrat izduvnih gasova), isključivanje TVA (Throttle Valve Acutator – Klapna gasa), isključivanje flaps/swirl – klapni usisne grane, isključivanje MAF senzora (Mass Air Flow – Merač mase vazduha-protokomer), isključivanje i adaptacija MAP senzora (Mass Air Pressure - Merač pritiska vazduha), trajno brisanje grešaka iz motornog računara - DTC (Diagnistic Trouble Code), Isključivanje O2 senzora - Lambda sondi, itd.</p>
+							<p>Software update / Software downgrade - Ažuriranje softvera na noviju verziju ili vraćanje stare verzije u ECU - motorni računar. </p>
+							<p>Original setup - Postavljanje originalnih parametara motornog računara.</p>
+							<p>Kloniranje ECU - Prebacivanje parametara iz motornog računara prilikom zamene ECU.</p>
+							<h3>Najčešći pokazatelji da je potrebno izvršiti ECU remap:</h3>
+							<ul>
+								<li>Ako je vozilo prešlo veliku kilometražu i performanse nisu kao nekada.</li>
+								<li>Vremenom ste primetili da vozilo nema nekadašnju snagu ili se povećala potrošnja goriva.</li>
+								<li>Turbina kasno daje potreban pritisak.</li>
+								<li>Prilikom paljenja motora se javlja beli dim iz auspuha.</li>
+								<li>Vozilu je potrebno previše vremena prilikom preticanja.</li>
+								<li>Vozilo ima poteškoće prilikom savladavanja uzbrdica.</li>
+								<li>Papučica gasa nema dovoljno precizan odziv.</li>
+								<li>Oseća se „rupa“ ili „knedla“ prilikom ubrzanja.</li>
+								<li>Vozilo tokom vožnje ispušta crni dim na auspuhu.</li>
+								<li>Pojavljuju se problemi sa zapušenošću DPF filtera.</li>
+								<li>Motor ima problem sa paljenjem kada je hladan ili vruć.</li>
+								<li>Automatski menjač naizmenično menja brzine prilikom vožnje uzbrdo.</li>
+								<li>Dešavaju se problemi sa EGR ventilom.</li>
+								<li>Nakon ugradnje sportskog izduva se javlja greška sa O2 senzorom - Lambda sondom.</li>
+								<li>AdBlue sistem i NOx senzori stvaraju probleme tokom vožnje.</li>
+								<li>Povećanje nivoa ulja u motoru.</li>
+								<li>Nakon ugradnje pojačane - hibridne turbine ili pojačanih dizni.</li>
+								<li>Ukoliko Vaše vozilo ima problem sa MAF senzorom - protokomerom.</li>
+								<li>Želite da isključite Start-Stop sistem.</li>
+								<li>Želite da uklonite ili podesite ograničenje brzine.</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<div class="copyright">
+			Site made: <a href="https://templated.co/">NP</a>
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/texteffect.js"></script>
+
+	</body>
+</html>
